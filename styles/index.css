@@ -6,6 +6,11 @@ main {
   padding: 20px 0;
 }
 
+main h1 {
+  font-size: 3rem;
+  color: orange;
+}
+
 .plate-list-content {
   padding: 10px;
   padding-top: 2px;
