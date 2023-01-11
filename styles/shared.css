@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    background-color: rgb(65, 65, 65);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+header a {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    background-color: rgb(65, 65, 65);
+}
+
+main h1 {
+    font-size: 50px;
+    color: orange;
+}
+
+#page-logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 5px;    
+}
+
+#navbar {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar li {
+    margin: 0 10px;
+}

@@ -1,0 +1,52 @@
+main {
+  position: relative;
+  top: 85px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.plate-list-content {
+  padding: 10px;
+  padding-top: 2px;
+}
+
+#plate-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin: 0 80%px;
+  justify-content: center;
+}
+
+#plate-list li {
+  border-radius: 8px;
+  background-color: rgb(247, 230, 199);
+  overflow: hidden;
+  margin: 5px 10px;
+  padding-bottom: 8px;
+
+}
+
+#plate-list img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#plate-list h2 {
+  margin: 10px auto;
+}
+
+#plate-list a {
+  margin: 10px auto;
+  text-decoration: none;
+  background-color: orange;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+#plate-list a:hover {
+    background-color: rgb(235, 145, 0);
+}
